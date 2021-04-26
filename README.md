@@ -73,3 +73,7 @@ $ ansible-playbook site.yml
 ```
 
 This will create your AWS resources (Public VPC, Subnet, IGW, EC2 instances) and also deploy the application on that instance.
+
+### Done and Documented by:
+Nixon Chebii
+Email: chebiinixon91@gmail.com
