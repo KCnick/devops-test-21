@@ -37,9 +37,9 @@ To clear those tokens from the code run `./add_creds.sh clear`.
 ### Docker
 ```bash
 $ # Build
-$ docker build -t cloud-cost-calculator .
+$ docker build -t devops-test-21 .
 $ # Run
-$ docker run -d -p 8080:80 cloud-cost-calculator
+$ docker run -d -p 8080:80 devops-test-21
 ```
 
 ### Static Deployment files
