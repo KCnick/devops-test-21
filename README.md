@@ -39,7 +39,7 @@ To clear those tokens from the code run `./add_creds.sh clear`.
 Run `ng test` to execute the unit tests via ([Karma](https://www.softwaretestinghelp.com/karma-test-runner-tutorial/))
 
 ## Running end-to-end tests
-Run `ng e2e` to execute the end-to-end tests via ([Protractor] (https://www.protractortest.org/#/))
+Run `ng e2e` to execute the end-to-end tests via ([Protractor](https://www.protractortest.org/#/))
 
 ### Docker
 ```bash
@@ -88,7 +88,7 @@ Configure Orchestation using Kubernetes or Mesos
 
 
 ### Further help
-To get more help on Angular CLI use `ng help` or go check out the( [Amgular CLI README] (https://github.com/angular/angular-cli/blob/master/README.md))
+To get more help on Angular CLI use `ng help` or go check out the([Amgular CLI README](https://github.com/angular/angular-cli/blob/master/README.md))
 
 ### Done and Documented by:
 Nixon Chebii
