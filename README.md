@@ -19,6 +19,8 @@ Run `ng serve --ssl` to run localhost on https
 Navigate to `http://localhost:4200/`. 
 The app will automatically reload if you change any of the source files. (See [configure](#configure))
 
+## Code Scaffolding
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directie|pipe|service|class|guard|interface|enum|module`
 
 
 ## Setup and Configuration 
@@ -33,7 +35,11 @@ $ ./add_creds.sh <access token> <secret token>
 
 To clear those tokens from the code run `./add_creds.sh clear`.
 
-## Build
+##  Running unit tests
+Run `ng test` to execute the unit tests via [Karma](https://www.softwaretestinghelp.com/karma-test-runner-tutorial/)
+
+## Running end-to-end tests
+Run `ng e2e` to execute the end-to-end tests via [Protractor] (https://www.protractortest.org/#/)
 
 ### Docker
 ```bash
@@ -79,6 +85,10 @@ This will create your AWS resources (Public VPC, Subnet, IGW, EC2 instances) and
 ### TODO
 Configure Automation and Orchestation using Jenkins
 Configure Orchestation using Kubernetes or Mesos 
+
+
+### Further help
+To get more help on Angular CLI use `ng help` or go check out the [Amgular CLI README] (https://github.com/angular/angular-cli/blob/master/README.md)
 
 ### Done and Documented by:
 Nixon Chebii
