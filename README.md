@@ -15,6 +15,7 @@ This project consumes AWS pricing APIs to fetch various pricing information rela
 ## Development server
 
 Run `ng serve` for a dev server. 
+Run `ng serve --ssl` to run localhost on https
 Navigate to `http://localhost:4200/`. 
 The app will automatically reload if you change any of the source files. (See [configure](#configure))
 
@@ -73,6 +74,11 @@ $ ansible-playbook site.yml
 ```
 
 This will create your AWS resources (Public VPC, Subnet, IGW, EC2 instances) and also deploy the application on that instance.
+
+
+### TODO
+Configure Automation and Orchestation using Jenkins
+Configure Orchestation using Kubernetes or Mesos 
 
 ### Done and Documented by:
 Nixon Chebii
